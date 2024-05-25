@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    background-color: rgba(238, 235, 229, 1);
+    
+}
+
+.jeffery_cannon {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(87, 0, 255, 1);
+    display: flex;
+    align-items: center;
+}
+
+.more_icon_button {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 99px;
+}
+
+.navbar_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.small_button_style {
+    border: 0 hidden;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.book_call {
+    height: 42px;
+    background-color: rgba(87, 0, 255, 1);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.vector {
+    margin-top: 5px;
+}
+.hero_main_container{
+    padding: 60px 60px;
+}
+
+.hero_container {
+    /* max-width: 1380px; */
+    width: 100%;
+    height: 300px;
+    background-color: rgba(247, 246, 243, 1);
+    /* border: black dotted; */
+    border-radius: 10px;
+    /* margin: 60px 60px; */
+}
+
+.hero_container_icon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+}
+
+.hero_container_header {
+    display: flex;
+    justify-content: center;
+}
+
+.bold_text {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 30px;
+}
+
+.small_text {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgba(77, 77, 77, 1);
+    margin-top: 4px;
+}
+
+.sub_containers_element {
+    /* height: 40px;
+    width: 170px; */
+    display: flex;
+    justify-content: center;
+    border: 1px gray ;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.element_button {
+    border: 1px gray;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sub_containers {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: rgba(238, 235, 229, 1);
+    display: flex;
+    padding: 0 60px;
+    gap: 5%;
+}
+
+.contact-section {
+    width: 35%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-contact {
+    background-color: rgba(247, 246, 243, 1);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.email-contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(245, 243, 240, 1);
+    border: 1px solid rgba(225, 219, 209, 1);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.arrow-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobile-contact {
+    display: flex;
+}
+
+.contact_section_icons_text {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.icon-container {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(247, 246, 243, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon-container img {
+    width: 35px;
+    height: 35px;
+}
+
+.form-section {
+    width: 100%;
+    background-color: rgba(247, 246, 243, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 10%;
+
+}
+
+.form_section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.form_input {
+    height: 30px;
+    border: 1px solid rgba(235, 231, 224, 1);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(245, 243, 240, 1);
+    color: black;
+    /* max-width: 346px; */
+    width: 100%;
+}
+
+.form_input::placeholder {
+    color: black;
+}
+
+.form_div_question {
+    background-color: rgba(245, 243, 240, 1);
+    border: 1px solid rgba(235, 231, 224, 1);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+.question {
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100% */
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.option input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.option label {
+    font-size: 16px;
+    color: black;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(235, 231, 224, 1);
+    border-radius: 4px;
+    background-color: rgba(238, 235, 229, 1);
+}
+
+.option1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.input-box {
+    /* max-width: 708px; */
+    width: 100%;
+    height: 182px;
+    background-color: rgba(245, 243, 240, 1);
+    border: 1px solid rgba(235, 231, 224, 1);
+    border-radius: 6px;
+    /* padding: 20px; */
+    /* margin: 0 15%; */
+    display: flex;
+}
+
+.input-box::placeholder {
+    color: black;
+    font-size: 20px;
+
+}
+
+.send-button {
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 6px;
+    width: 102px;
+    height: 49px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.send-button-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-main-section {
+    width: 100%;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.frequently-question {
+    background-color: rgba(238, 235, 229, 1);
+    margin-top: 5%;
+}
+
+.faq-text {
+    font-size: 30px;
+}
+
+.faq-text-small {
+    font-size: 15px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.faq-questions {
+    background-color: white;
+    max-width: 837px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+}
+
+.question-text {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.expand-button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.expand-icon {
+    width: 70%;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+}
+
+.expand-icon::before,
+.expand-icon::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.expand-icon::before {
+    transform: rotate(90deg);
+}
+
+.questions {
+    display: flex;
+    background-color: rgba(238, 235, 229, 1);
+    max-width: 775px;
+    width: 100%;
+    height: 76px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.faq-card {
+    background-color: white;
+    max-width: 413px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.faq-card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.faq-card-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.faq-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(77, 77, 77, 1);
+}
+
+.faq-card-button {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.contact-button {
+    background-color: rgba(87, 0, 255, 1);
+    color: white;
+    width: 118px;
+    height: 49px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgba(238, 235, 229, 1);
+    margin-top: 5%;
+}
+
+.jeffery-cannon {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-style {
+    border: 0 hidden;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.section1-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.section1-icons-image {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.section1-icons-image:hover {
+   transform: translateY(20px);
+   transition: all 0.5s ease-in;
+}
+.footer-section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3%;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+@media only screen and (max-width: 390px) {
+
+    .navbar_buttons {
+        display: none;
+    }
+
+    .jeffery_cannon {
+        font-size: 18px;
+    }
+
+    .more_icon_button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero_container {
+        max-width: 358px;
+        width: 100%;
+        height: 482px;
+    }
+
+    .hero_main_container {
+        padding: 30px 16px;
+    }
+
+    .bold_text {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .small_text {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 13px;
+    }
+
+    .hero_container_header {
+        display: flex;
+        text-align: center;
+    }
+
+    .sub_containers_element {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .element_button {
+        max-width: 298px;
+        height: 44px;
+    }
+
+    .sub_containers {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px;
+        gap: 30px;
+    }
+
+    .contact-section {
+        order: 1;
+        max-width: 300px;
+        width: 100%;
+        
+    }
+
+    .form_section {
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0 50px; */
+    }
+
+    .option1 {
+        flex-direction: column;
+        gap: inherit;
+    }
+
+    .option2 {
+        flex-direction: column;
+        gap: inherit;
+        margin-top: 0;
+    }
+ 
+    .send-button {
+        width: 281px;
+        margin:15px 0;
+    }
+
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-card {
+        margin-top: 3%;
+    }
+}
